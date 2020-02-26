@@ -1,13 +1,12 @@
 {
     "targets": [{
-        "target_name": "testaddon",
+        "target_name": "addon",
         "cflags!": ["-fno-exceptions"],
         "cflags_cc!": ["-fno-exceptions"],
         "sources": [
-            "cppsrc/main.cpp",
-            "cppsrc/Samples/functionexample.cpp",
-            "cppsrc/Samples/actualclass.cpp",
-            "cppsrc/Samples/classexample.cpp"
+            "src/RunSimpleAsyncWorker.cpp",
+            "src/SimpleAsyncWorker.cpp",
+
 
         ],
         'include_dirs': [
